@@ -2845,6 +2845,11 @@
   "resolved" "https://registry.yarnpkg.com/boolbase/-/boolbase-1.0.0.tgz"
   "version" "1.0.0"
 
+"bootstrap-icons@^1.3.0":
+  "integrity" "sha512-w6zQ93p626zmPDqDtET7VdB9EkoDtfmCBV53hunjntoCke6X5LafXf6TxPAP+ImjRAhhxAyA/sjzQnHBY0uoiQ=="
+  "resolved" "https://registry.npmjs.org/bootstrap-icons/-/bootstrap-icons-1.3.0.tgz"
+  "version" "1.3.0"
+
 "bootstrap@^4.6.0":
   "integrity" "sha512-Io55IuQY3kydzHtbGvQya3H+KorS/M9rSNyfCGCg9WZ4pyT/lCxIlpJgG1GXW/PswzC84Tr2fBYi+7+jFVQQBw=="
   "resolved" "https://registry.npmjs.org/bootstrap/-/bootstrap-4.6.0.tgz"
@@ -9156,6 +9161,13 @@
     "regenerator-runtime" "^0.13.7"
     "whatwg-fetch" "^3.4.1"
 
+"react-bootstrap-icons@^1.3.0":
+  "integrity" "sha512-84ne6JNYd/aT4/lk9IT23YmPdat7RrBFuf1rSIdrufX5bAkVzDPqNUkLS1gZqylZIzjjKJvIevLHLGYaMCo7Ig=="
+  "resolved" "https://registry.npmjs.org/react-bootstrap-icons/-/react-bootstrap-icons-1.3.0.tgz"
+  "version" "1.3.0"
+  dependencies:
+    "prop-types" "^15.7.2"
+
 "react-dev-utils@^11.0.2":
   "integrity" "sha512-xG7GlMoYkrgc2M1kDCHKRywXMDbFnjOB+/VzpytQyYBusEzR8NlGTMmUbvN86k94yyKu5XReHB8eZC2JZrNchQ=="
   "resolved" "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-11.0.2.tgz"
@@ -9281,7 +9293,7 @@
   optionalDependencies:
     "fsevents" "^2.1.3"
 
-"react@*", "react@^17.0.1", "react@>= 16", "react@17.0.1":
+"react@*", "react@^16.8.6 || ^17", "react@^17.0.1", "react@>= 16", "react@17.0.1":
   "integrity" "sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w=="
   "resolved" "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz"
   "version" "17.0.1"
