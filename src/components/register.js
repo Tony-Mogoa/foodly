@@ -7,7 +7,7 @@ class Register extends Component {
 
   styles = {
     personLogo: {
-      backgroundColor: colors.grey,
+      // backgroundColor: colors.grey,
       marginTop: 0,
     },
     textLogo: {
@@ -18,7 +18,14 @@ class Register extends Component {
   render() {
     const { personLogo, textLogo } = this.styles;
     return (
-      <div className="d-flex align-items-center flex-row justify-content-center">
+      <div
+        style={{
+          position: "absolute",
+          left: "50%",
+          top: "50%",
+          transform: "translate(-50%, -50%)",
+        }}
+      >
         <div
           className="card"
           style={{
@@ -26,18 +33,20 @@ class Register extends Component {
             marginTop: 100,
             marginRight: 20,
             marginLeft: 20,
+            borderColor: colors.lightBlue,
           }}
         >
           <PersonFill
-            color={colors.blue}
+            color={colors.lightBlue}
             size={128}
             className="card-img-top"
             style={personLogo}
           />
           <div className="card-body">
             <h2 className="card-title text-center" style={textLogo}>
-              Foodly Registration
+              Foodly
             </h2>
+            <h5 className="text-center">Registration</h5>
             <form>
               <div className="mb-3">
                 <label for="full-name" className="form-label">

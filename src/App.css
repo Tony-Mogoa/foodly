@@ -1,3 +1,129 @@
 * {
-  font-family: "Zilla Slab", serif !important;
+  /* font-family: "Zilla Slab", serif !important; */
+  font-family: "Nunito", sans-serif !important;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./assets/img/bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#root {
+  display: flex;
+}
+
+.down-icon-container {
+  background-color: white;
+}
+
+.down-icon-container:hover {
+  background-color: #d6d6d6;
+}
+
+.home-container {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1;
+}
+
+.icon-container {
+  width: 48px;
+  height: 48px;
+  padding: 1px;
+  display: flex;
+}
+
+.icon-container:hover {
+  background-color: #fb9300;
+}
+
+.side-nav .side-nav-item {
+  list-style: none;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.side-nav:first-child {
+  margin-top: 20px;
+}
+
+.side-nav {
+  width: 70px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  flex-flow: column nowrap;
+  position: fixed;
+}
+
+.main {
+  flex: 7;
+  background-color: #ffff;
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 70px;
+  margin-right: 300px;
+}
+
+.main .upper {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.main .upper .title-area {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 5px 20px;
+}
+
+.main .upper .title-area p {
+  font-size: 20px;
+  font-style: bold;
+}
+
+.main .upper .title-area .search-foodly {
+  height: 35px;
+  border-radius: 30px;
+  border: 2px solid #fb9300;
+  padding: 12px 10px;
+}
+
+.search-foodly:focus {
+  outline: none !important;
+}
+
+.nav-icon {
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.right-pane {
+  width: 300px;
+  position: fixed;
+  right: 0;
+}
+
+.add-order-btn:active {
+  background-color: white;
+}
+
+.svg-desc {
+  background-image: url("./assets/img/banner.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 10px;
+}
+
+.text-gold {
+  color: #fb9300;
 }
