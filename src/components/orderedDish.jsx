@@ -39,7 +39,7 @@ class OrderedDish extends Component {
           </div>
         </div>
         <div style={{ fontSize: 16, fontWeight: "bold" }}>
-          <span className="text-gold">$</span>
+          <sup className="text-gold">$</sup>
           {count * dishPrice}
         </div>
       </div>

@@ -39,7 +39,7 @@ class Dish extends Component {
           <p className="text-start">{dish.dishName}</p>
           <div className="d-flex justify-content-between">
             <div style={{ fontSize: 16, fontWeight: "bold" }}>
-              <span className="text-gold">$</span>
+              <sup className="text-gold">$</sup>
               {dish.dishPrice}
             </div>
             <div
